@@ -1,0 +1,9 @@
+{
+  "name": "studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Статический лендинг + Vercel Serverless Function для приёма заявок в Telegram",
+  "engines": {
+    "node": ">=18"
+  }
+}
