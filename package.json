@@ -1,13 +1,9 @@
-# Скопируй этот файл в .env и заполни своими значениями для локальной
-# разработки через `vercel dev`. На проде эти же ключи задаются в
-# Vercel → Project → Settings → Environment Variables (обычная пара ключ-значение,
-# без запятых/кавычек).
-
-# Токен бота, полученный у @BotFather в Telegram
-TELEGRAM_BOT_TOKEN=123456789:AAExampleTokenReplaceMe
-
-# ID чата/группы/канала, куда должны приходить заявки.
-# Узнать chat_id можно, например, через бота @userinfobot
-# или через https://api.telegram.org/bot<ТОКЕН>/getUpdates после
-# отправки любого сообщения боту.
-TELEGRAM_CHAT_ID=123456789
+{
+  "name": "studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Статический лендинг + Vercel Serverless Function для приёма заявок в Telegram",
+  "engines": {
+    "node": ">=18"
+  }
+}
